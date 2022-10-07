@@ -1,14 +1,12 @@
-import react from 'react'
-import cardwidget from './Cartwidget';
-
-function Navbar() {
-   return( <div>
-    <h1> BRAND</h1>
+export default function Navbar() {
+    return (<nav classname="nav">
+        <a href="/" classname="site-title">Site Name</a>
         <ul>
-            <li>Categoria A</li>
-            <li>Categoria B</li>
+            <li> <a href="/Pricing">Pricing</a> </li>
+            <li> <a href="/about">About</a></li>
         </ul>
-    </div>)
+    </nav>
+    )
 }
 
-export default Navbar;
+
